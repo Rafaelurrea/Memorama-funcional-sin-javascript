@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Memorama</title>
+  </head>
+  <body>
+    <header>
+      <div> 
+        <h1 class="titulo">Memorama</h1>
+      </div>
+      <div>
+        <h3 class="subtitulo">Encuentra las parejas</h3>
+      </div>
+    </header>
+
+
+    <input type="radio" id="d1" name="dice" />
+    <input type="radio" id="d2" name="dice" />
+    <input type="radio" id="d3" name="dice" />
+    <input type="radio" id="d4" name="dice" />
+    <input type="radio" id="d5" name="dice" />
+    <input type="radio" id="d6" name="dice" />
+
+    <label class="label-dice" for="d1">Start game</label>
+    <label class="label-dice" for="d2">Start game</label>
+    <label class="label-dice" for="d3">Start game</label>
+    <label class="label-dice" for="d4">Start game</label>
+    <label class="label-dice" for="d5">Start game</label>
+    <label class="label-dice" for="d6">Start game</label>
+
+    <main>
+      
+      <input id="card-1" type="checkbox" />
+      <input type="checkbox" id="card-2" />
+      <input type="checkbox" id="card-3" />
+      <input type="checkbox" id="card-4" />
+      <input type="checkbox" id="card-5" />
+      <input type="checkbox" id="card-6" />
+      <input type="checkbox" id="card-7" />
+      <input type="checkbox" id="card-8" />
+      <input type="checkbox" id="card-9" />
+      <input type="checkbox" id="card-10" />
+      <input type="checkbox" id="card-11" />
+      <input type="checkbox" id="card-12" />
+      <input type="checkbox" id="card-13" />
+      <input type="checkbox" id="card-14" />
+      <input type="checkbox" id="card-15" />
+      <input type="checkbox" id="card-16" />
+
+      <label for="card-1" class="flip-card carta-selector-1">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/angular.svg"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-2" class="flip-card carta-selector-2">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/angular.svg"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-3" class="flip-card carta-selector-3">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/64px-Racket-logo.svg.png"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-4" class="flip-card carta-selector-4">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/64px-Racket-logo.svg.png"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-5" class="flip-card carta-selector-5">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/aurelia.svg"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-6" class="flip-card carta-selector-6">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/aurelia.svg"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-7" class="flip-card carta-selector-7">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/backbone.svg"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-8" class="flip-card carta-selector-8">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/backbone.svg"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-9" class="flip-card carta-selector-9">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/ember.svg"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-10" class="flip-card carta-selector-10">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/ember.svg"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-11" class="flip-card carta-selector-11">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/ISO_C++_Logo.svg.png"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-12" class="flip-card carta-selector-12">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/ISO_C++_Logo.svg.png"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-13" class="flip-card carta-selector-13">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/react.svg"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-14" class="flip-card carta-selector-14">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/react.svg"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-15" class="flip-card carta-selector-15">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/vue.svg"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+      <label for="card-16" class="flip-card carta-selector-16">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img
+              src="img/descarga.svg"
+              alt="img-1"
+            />
+          </div>
+          <div class="flip-card-back">
+            <img
+              src="img/vue.svg"
+              alt="img-1"
+            />
+          </div>
+        </div>
+      </label>
+
+      <div class="you-won-card">
+        <h1>Ganaste!</h1>
+        <button>
+          <a href="index.html">Jugar De Nuevo</a>
+        </button>
+      </div>
+
+      <div class="please-turn-card">
+        <div class="alert error">
+          <span class="alertText"
+            >Por favor gira las cartas diferentes de nuevo para continuar.</span>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
